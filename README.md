@@ -15,7 +15,7 @@ import ReactNativeCache from "@lowkey/react-native-cache";
 
 // ...
 
-const result = await ReactNativeCache.multiply(3, 7);
+
 ```
 
 ## Contributing

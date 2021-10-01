@@ -1,9 +1,15 @@
 import { NativeModules } from 'react-native';
 
 type ReactNativeCacheType = {
-  multiply(a: number, b: number): Promise<number>;
+  init: () => void;
+  getCachedData: (url: string) => Promise<string>;
 };
 
-const { ReactNativeCache } = NativeModules;
+const { ReactNativeCacheManager } = NativeModules;
+
+const ReactNativeCache = {
+  init: () => ReactNativeCacheManager.init(),
+  getCachedData: (url: string) => ReactNativeCacheManager.getCachedData(url),
+};
 
 export default ReactNativeCache as ReactNativeCacheType;

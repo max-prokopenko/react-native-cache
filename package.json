@@ -1,6 +1,6 @@
 {
   "name": "@lowkey/react-native-cache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cache everything",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/max-prokopenko/react-native-cachee",
+  "repository": "https://github.com/max-prokopenko/react-native-cache",
   "author": "Max Prokopenko <max.prokopenko@hotmail.com> (https://github.com/max-prokopenko)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/max-prokopenko/react-native-cachee/issues"
+    "url": "https://github.com/max-prokopenko/react-native-cache/issues"
   },
-  "homepage": "https://github.com/max-prokopenko/react-native-cachee#readme",
+  "homepage": "https://github.com/max-prokopenko/react-native-cache#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
